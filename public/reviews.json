@@ -1,0 +1,44 @@
+[
+    {
+        "id": "r0001",
+        "user":"Kristin Ortiz",
+        "userImage":"https://randomuser.me/api/portraits/women/68.jpg",
+        "rating": 5.0,
+        "review":"The best headphones I've ever owned and I've tried quite a few. An excellent sound, very clean and balanced, good bass and good volume. Noise cancellation is simply spectacular. They fit wonderfully in the ear, they are comfortable and you notice that they are well gripped. The perfect touch function and synchronization."
+    },
+    {
+        "id": "r0002",
+        "user":"Richard Lucas",
+        "userImage":"https://randomuser.me/api/portraits/men/28.jpg",
+        "rating": 5.0,
+        "review":"I have had quite a few headphones of this type, although at cheaper prices since I have a tendency to lose them easily. Since I have a Xiaomi mobile I thought they would be perfect, and I was not wrong, so he went on to describe them. The size of the box and headphones is very small, the latter being very comfortable to wear with a very good grip."
+    },
+    {
+        "id": "r0003",
+        "user":"Jar Griffin",
+        "userImage":"https://randomuser.me/api/portraits/men/20.jpg",
+        "rating": 1.5,
+        "review":"The truth is that the sound it has is very good, the noise cancellation is very good, they are very beautiful and their battery lasts a long time. But they stop working. They only lasted me two days and the left earphone stopped being heard."
+    },
+    {
+        "id": "r0004",
+        "user":"Cory Kim",
+        "userImage":"https://randomuser.me/api/portraits/men/2.jpg",
+        "rating": 4.0,
+        "review":"Good helmets, the only thing that due to European regulations is heard very low. they are heard perfect with an average of 4 hours of battery life in each earphone at maximum volume, good noise cancellation, matte gray shade gets pretty dirty."
+    },
+    {
+        "id": "r0005",
+        "user":"Arlene Nichols",
+        "userImage":"https://randomuser.me/api/portraits/women/30.jpg",
+        "rating": 5.0,
+        "review":"The wearing comfort is great.. the buds sit firmly in the ear. So it is also suitable for jogging. The pairing is very easy... the overall quality is high quality.. Qi charging works great. The only point of criticism would be mmn they could be a bit louder."
+    },
+    {
+        "id": "r0006",
+        "user":"Cory Kim",
+        "userImage":"https://randomuser.me/api/portraits/women/3.jpg",
+        "rating": 2.5,
+        "review":"BUY TWICE, THE SAME PROBLEM THE RIGHT HEADSET STOP WORKING VERY LOW VOICE, THERE IS NO DEDICATED APP TO CUSTOMIZE THE HEADSET ... AESTHETICALLY BEAUTIFUL"
+    }
+]
