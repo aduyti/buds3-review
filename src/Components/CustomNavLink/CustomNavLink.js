@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const CustomNavLink = () => {
+const CustomNavLink = ({ children, to }) => {
+
     return (
-        <div>
-
-        </div>
+        <Link to={to}>{children}</Link>
     );
 };
 
