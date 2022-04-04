@@ -9,7 +9,7 @@ const CustomNavLink = ({ children, to }) => {
     });
     return (
         <div>
-            <Link className={`${match ? "font-bold text-amber-600 border-b-2 border-amber-600" : "font-medium"}`} to={to}>{children}</Link>
+            <Link className={`px-2 ${match ? "font-bold text-amber-600 border-b-2 border-amber-600" : "font-medium"}`} to={to}>{children}</Link>
         </div>
     );
 };
