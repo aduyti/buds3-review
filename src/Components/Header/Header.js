@@ -3,7 +3,7 @@ import CustomNavLink from '../CustomNavLink/CustomNavLink';
 
 const Header = () => {
     return (
-        <nav className="mb-8">
+        <nav className="mb-8 md:flex md:justify-between mx-10 mt-3">
             <CustomNavLink to='/'>Home</CustomNavLink>
             <CustomNavLink to='reviews'>Reviews</CustomNavLink>
             <CustomNavLink to='dashboard'>Dashboard</CustomNavLink>
