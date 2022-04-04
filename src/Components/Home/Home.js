@@ -1,12 +1,12 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import HomeReviews from '../HomeReviews/HomeReviews';
 
 const Home = () => {
     return (
         <>
             <Banner />
-            <hr className="my-5 font-bold text-gray-900" />
-            hi
+            <HomeReviews />
         </>
     );
 };
