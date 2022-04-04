@@ -5,7 +5,7 @@ import Review from '../Review/Review';
 const Reviews = () => {
     const [reviews] = useLoadData('reviews.json');
     return (
-        <div>
+        <div className="my-5">
             {
                 reviews.map(review =>
                     <Review

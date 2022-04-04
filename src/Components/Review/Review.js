@@ -15,19 +15,19 @@ const Review = ({ review }) => {
                 <div className="flex justify-center items-center">
                     {
                         ratingStars.map(rate => rate <= rating ?
-                            <StarIcon className="w-5 h-5 text-yellow-700" key={rate} />
+                            <StarIcon className="w-4 h-4 text-yellow-700" key={rate} />
                             :
-                            <StarOutIcon className="w-5 h-5 text-yellow-700" key={rate} />
+                            <StarOutIcon className="w-4 h-4 text-yellow-700" key={rate} />
                         )
                     }
 
-                    <p className="ml-2 bg-gray-800/50 text-white font-bold rounded-2xl px-1.5 text-sm">
+                    <p className="ml-2 bg-gray-800/50 text-white font-medium rounded-2xl px-1.5 text-sm">
                         {rating}
                     </p>
                 </div>
                 <div className="flex justify-center items-center">
-                    <img className="w-5 h-5 rounded-2xl mr-2" src={userImage} alt={user} />
-                    <p className="text-sm font-bold text-slate-700/75">{user}</p>
+                    <img className="w-4 h-4 rounded-2xl mr-2" src={userImage} alt={user} />
+                    <p className="text-xs font-bold text-slate-700/75">{user}</p>
                 </div>
             </div>
         </div>

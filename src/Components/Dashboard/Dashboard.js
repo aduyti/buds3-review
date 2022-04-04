@@ -1,12 +1,14 @@
 import React from 'react';
 import { useLoadData } from '../../Hooks/useLoadData';
+import CustomAreaChart from '../Charts/CustomAreaChart';
+import CustomBarChart from '../Charts/CustomBarChart';
 
 const Dashboard = () => {
     const [chartData] = useLoadData('https://raw.githubusercontent.com/ProgrammingHero1/product-analysis-website/main/data.json');
-    console.log(chartData);
     return (
-        <div>
-            D {chartData.length}
+        <div className="my-10">
+            <CustomBarChart data={chartData} />
+            <CustomAreaChart data={chartData} />
         </div>
     );
 };
