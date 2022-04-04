@@ -1,12 +1,18 @@
 import React from 'react';
 import { useLoadData } from '../../Hooks/useLoadData';
+import Review from '../Review/Review';
 
 const Reviews = () => {
     const [reviews] = useLoadData('reviews.json');
-    console.log(reviews);
     return (
         <div>
-            reviews {reviews.length}
+            {
+                reviews.map(review =>
+                    <Review
+                        review={review}
+                        key={review.id}
+                    />)
+            }
         </div>
     );
 };
