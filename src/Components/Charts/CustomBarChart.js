@@ -1,18 +1,20 @@
 import React from 'react';
-import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
 
 const CustomBarChart = ({ data }) => {
     return (
-        <div>
-            <h3 className="text-blue-700 font-bold mb-5">Monthly Sale</h3>
-            <LineChart className=" mx-auto" width={600} height={300} data={data} >
-                <Line type="monotone" dataKey="sell" stroke="green" />
-                <CartesianGrid stroke="gray" strokeDasharray="5 5" />
+        <div className="mt-12">
+            <h3 className="text-blue-700 font-bold mb-5">Investment VS Revenue</h3>
+            <BarChart className="mx-auto" width={600} height={300} data={data}>
+                <Bar dataKey="revenue" fill="blue" />
+                <Bar dataKey="investment" fill="green" />
+                <CartesianGrid stroke="gray" strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
                 <YAxis />
                 <Tooltip />
                 <Legend />
-            </LineChart>
+            </BarChart>
+
         </div>
     );
 };
